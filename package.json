@@ -1,0 +1,16 @@
+{
+  "name": "browserocr",
+  "version": "1.0.0",
+  "description": "This extension lets you scan words on the current webpage, select them visually, and quickly: - Copy selected text - Search on Google - Ask Gemini - Ask ChatGPT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "tesseract.js": "^7.0.0"
+  }
+}

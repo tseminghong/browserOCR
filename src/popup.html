@@ -1,0 +1,32 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Browser OCR</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <main class="panel">
+    <header class="hero">
+      <p class="eyebrow">Image OCR Plugin</p>
+      <h1>Browser OCR Assistant</h1>
+      <p class="subtitle">Scan text from screenshots, canvas, and image-heavy pages, then copy/search or send to Gemini and ChatGPT.</p>
+    </header>
+
+    <section class="actions">
+      <button id="scanBtn" class="btn btn-primary">Scan Image Text</button>
+      <button id="clearBtn" class="btn">Clear Overlay</button>
+    </section>
+
+    <section class="tips">
+      <p><strong>Tip:</strong> First scan may take longer while OCR language files are cached.</p>
+      <p>Use <kbd>Esc</kbd> on the page to close overlay quickly.</p>
+    </section>
+
+    <p id="status" class="status">Ready.</p>
+  </main>
+
+  <script src="popup.js"></script>
+</body>
+</html>
